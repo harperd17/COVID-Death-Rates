@@ -17,5 +17,5 @@ After cleaning, the data contains 696,781 observations of people testing positiv
 Code        : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Notebooks/Data_Cleanup.ipynb>Data Cleaning Notebook </a>
             : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Notebooks/Data_Visualizations.ipynb>Data Visualization Notebook </a>
             : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Notebooks/Modelling_code.ipynb>Classification Modelling Notebook </a>
-Report      : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Report/Report.ipynb>Report Notebook</a>
+Report      : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Report/Report_Notebook.ipynb>Report Notebook</a>
 </pre>
