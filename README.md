@@ -21,5 +21,5 @@ Code            : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/ma
                 
 Report          : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/main/Report/Final%20Report_Notebook.ipynb>Report Notebook</a>
 
-Presentation    : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Presentation/Presentation_Slides.pdf>Presentation Slides</a>
+Presentation    : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/main/Presentation/Project_Presentation.pdf>Presentation Slides</a>
 </pre>
