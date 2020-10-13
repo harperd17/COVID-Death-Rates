@@ -17,9 +17,9 @@ Data            : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/ma
 
 Code            : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Notebooks/Data_Cleanup.ipynb>Data Cleaning Notebook </a>
                 : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Notebooks/Data_Visualizations.ipynb>Data Visualization Notebook </a>
-                : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Notebooks/Modelling_code.ipynb>Classification Modelling Notebook </a>
+                : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Notebooks/Final_Classification_Modelling.ipynb>Classification Modelling Notebook </a>
                 
-Report          : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Report/Report_Notebook.ipynb>Report Notebook</a>
+Report          : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Report/Final_Report_Notebook.ipynb>Report Notebook</a>
 
-Presentation    : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Presentation/Presentation_Slides.html>Presentation Slides</a>
+Presentation    : <a href=https://github.com/harperd17/COVID-Death-Rates/blob/master/Presentation/Presentation_Slides.pdf>Presentation Slides</a>
 </pre>
