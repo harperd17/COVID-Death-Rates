@@ -63,7 +63,6 @@ def getDeathRates3(data,p_variable,t_variable,ax,mapping):
         names.append(mapping[str(int(value))])
     
     ax.bar(unique_p_values, rates, align='center', alpha=0.5)
-    #plt.xticks(y_pos, objects)
     ax.set_xlabel(p_variable)
     ax.set_xticks(unique_p_values)
     ax.set_xticklabels(names)
@@ -95,16 +94,11 @@ def performValidations(X,y,variable_sets,folds,model):
     selection. Also takes in how many folds to do with K-fold and which model data should be fitted on"""
     cv = KFold(n_splits=folds, random_state=1, shuffle=True)
     #loop through each set and perform k-fold cross validation for each  model, then report the average classification rate
-    #mean_accuracies = []
-    #std_accuracies = []
     all_metrics = []
     for sett in variable_sets:
-        #scores = cross_val_score(model, X[sett], y, scoring='accuracy', cv=cv, n_jobs=-1)
-        predictions = cross_val_predict(model,X[sett],y,cv=cv)
+        predictions = cross_val_predict(model,X[sett],y,cv=cv,n_jobs=-1)
         cm = metrics.confusion_matrix(y,predictions)
         all_metrics.append(cm)
-        #mean_accuracies.append(scores.mean())
-        #std_accuracies.append(scores.std())
     return all_metrics
 
 
@@ -118,6 +112,7 @@ def forwardSelection(X,y,model,factor):
     feature_additions = [[]]
 
     for i in range(len(predictors)):
+        print(predictors[i])
         max_factor = -999999999999999
         best_feature = ""
         for feature in remaining_predictors:
